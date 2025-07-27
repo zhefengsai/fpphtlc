@@ -1,11 +1,14 @@
 # Cross-Chain HTLC Protocol Implementation
 
-A Solidity-based Hash Time Lock Contract (HTLC) implementation supporting secure cross-chain asset exchange, with an optimized Fast Payment Protocol HTLC (FPPHTLC) variant.
+A Solidity-based Hash Time Lock Contract (HTLC) implementation supporting secure cross-chain asset exchange, with an Improved Faster and Privacy-Preserving Atomic Swap Protocol (FPPHTLC) variant.
+
+Through the comparative experiments conducted in this study, it has been observed that the FPPHTLC protocol outperforms the standard HTLC protocol with respect to execution speed. Additionally, the FPPHTLC protocol provides an improved degree of privacy under certain conditions.
+
 
 ## Features
 
 - ✅ Standard HTLC contract implementation
-- ✅ Fast Payment Protocol HTLC (FPPHTLC) implementation
+- ✅ Faster and Privacy-Preserving Atomic Swap Protocol (FPPHTLC) implementation
 - ✅ Cross-chain transaction support
 - ✅ Batch operation support
 - ✅ Performance testing tools
@@ -116,7 +119,7 @@ Standard HTLC contract supporting ERC20 tokens:
 - `refund()` - Refund after timeout
 
 ### FPPHTLC.sol
-Fast Payment Protocol HTLC supporting atomic swaps:
+Faster and Privacy-Preserving Atomic Swap Protocol supporting atomic swaps:
 - `generateCombinedHash()` - Generate combined hash for both parties
 - `lockFunds()` - Lock tokens with combined hash
 - `claimFunds()` - Claim with both secrets
@@ -146,7 +149,7 @@ const tx = await htlc.lockFunds(
 );
 ```
 
-### FPPHTLC (Fast Payment Protocol)
+### FPPHTLC (Faster and Privacy-Preserving Atomic Swap Protocol)
 ```javascript
 // Generate secrets and hashes
 const secretA = ethers.utils.formatBytes32String("alice_secret");
@@ -217,7 +220,7 @@ BSCSCAN_API_KEY=your_bscscan_api_key
 ```
 ├── contracts/
 │   ├── HTLC.sol           # Standard HTLC contract
-│   └── FPPHTLC.sol        # Fast Payment Protocol HTLC
+│   └── FPPHTLC.sol        # Faster and Privacy-Preserving Atomic Swap Protocol 
 ├── scripts/
 │   ├── deploy.js          # Deployment script
 │   ├── cross-network-test.js # Cross-network test script
