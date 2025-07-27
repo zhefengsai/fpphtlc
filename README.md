@@ -1,4 +1,6 @@
-# Cross-Chain HTLC Protocol Implementation
+# FPP-HTLC: An Improved Faster and Privacy-Preserving Atomic Swap Protocol - Cross-Chain HTLC Protocol Implementation
+
+
 
 A Solidity-based Hash Time Lock Contract (HTLC) implementation supporting secure cross-chain asset exchange, with an Improved Faster and Privacy-Preserving Atomic Swap Protocol (FPPHTLC) variant.
 
