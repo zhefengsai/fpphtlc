@@ -5,10 +5,10 @@ require("dotenv").config();
 // Default values for testing
 const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL || "https://sepolia.infura.io/v3/2aecf52b43c14068bf356ff538bfbe47";
 const BSC_TESTNET_RPC_URL = process.env.BSC_TESTNET_RPC_URL || "https://data-seed-prebsc-1-s1.binance.org:8545/";
-const PRIVATE_KEY_ALICE = process.env.PRIVATE_KEY_ALICE || "2e4e140b13d014871c86d5ace12e53265e5fc2d6b88f43f9a33af6b871a68d91";
-const PRIVATE_KEY_BOB = process.env.PRIVATE_KEY_BOB || "7c4002ba240e216d0b0b1a4c18b49f2744774f231bb8e270bb76e43e583134a3";
-const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "2aecf52b43c14068bf356ff538bfbe47";
-const BSCSCAN_API_KEY = process.env.BSCSCAN_API_KEY || "2aecf52b43c14068bf356ff538bfbe47";
+const PRIVATE_KEY_ALICE = process.env.PRIVATE_KEY_ALICE || "";
+const PRIVATE_KEY_BOB = process.env.PRIVATE_KEY_BOB || "";
+const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "";
+const BSCSCAN_API_KEY = process.env.BSCSCAN_API_KEY || "";
 
 module.exports = {
   solidity: {
