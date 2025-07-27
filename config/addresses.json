@@ -1,0 +1,14 @@
+{
+    "sepolia": {
+        "HTLC": "0xEcf5568Bbe60ddd32DEB5AC2Ac98D10cE6d4C2A1",
+        "FPPHTLC": "0xeC7F52DcC91b0AE0A8547C05eeAbbf6F71552A8d",
+        "TokenA": "0xF53A89F45042601638d194e776a9E61e3Baa1D99",
+        "TokenB": "0x82648C7C338Ca051557Bef0C3c1F33446c9047A2"
+    },
+    "bscTestnet": {
+        "HTLC": "0xdbc8e068E089a800e9B77306c99C219b06ed860b",
+        "FPPHTLC": "0xc608F966B48Cab8E46ac4F439ac78679bade69f3",
+        "TokenA": "0x7aDc0EADC8a472108E05d866D79c4C16b5D93460",
+        "TokenB": "0x0cEd864fa5067F5B41f131213cbd1b74cEc85859"
+    }
+}

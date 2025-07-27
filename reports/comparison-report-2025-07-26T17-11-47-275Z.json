@@ -1,0 +1,68 @@
+{
+  "en": {
+    "performance": {
+      "title": "Performance Comparison",
+      "htlc": {
+        "lockTime": "10.71ms",
+        "claimTime": "9.68ms",
+        "totalTime": "20.39ms"
+      },
+      "fpphtlc": {
+        "lockTime": "5.98ms",
+        "claimTime": "9.50ms",
+        "totalTime": "15.49ms"
+      }
+    },
+    "gas": {
+      "title": "Gas Analysis",
+      "htlc": {
+        "lockGas": "638,501.6",
+        "claimGas": "173,789.6",
+        "totalGas": "8,122,912"
+      },
+      "fpphtlc": {
+        "lockGas": "677,972.8",
+        "claimGas": "225,048",
+        "totalGas": "9,030,208"
+      }
+    },
+    "reliability": {
+      "title": "Reliability",
+      "htlc": "100.00%",
+      "fpphtlc": "100.00%"
+    }
+  },
+  "zh": {
+    "performance": {
+      "title": "性能对比",
+      "htlc": {
+        "lockTime": "10.71毫秒",
+        "claimTime": "9.68毫秒",
+        "totalTime": "20.39毫秒"
+      },
+      "fpphtlc": {
+        "lockTime": "5.98毫秒",
+        "claimTime": "9.50毫秒",
+        "totalTime": "15.49毫秒"
+      }
+    },
+    "gas": {
+      "title": "Gas分析",
+      "htlc": {
+        "lockGas": "638,501.6",
+        "claimGas": "173,789.6",
+        "totalGas": "8,122,912"
+      },
+      "fpphtlc": {
+        "lockGas": "677,972.8",
+        "claimGas": "225,048",
+        "totalGas": "9,030,208"
+      }
+    },
+    "reliability": {
+      "title": "可靠性",
+      "htlc": "100.00%",
+      "fpphtlc": "100.00%"
+    }
+  }
+}

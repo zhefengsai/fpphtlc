@@ -1,0 +1,41 @@
+{
+  "name": "htlc-crosschain-protocol",
+  "version": "1.0.0",
+  "description": "基于HTLC的Solidity跨链协议实现",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "performance": "hardhat run scripts/test-performance.js",
+    "comparison": "hardhat run scripts/performance-comparison.js",
+    "erc20-comparison": "hardhat run scripts/erc20-performance-comparison.js",
+    "erc20-comparison-clean": "node scripts/run-without-warnings.js run scripts/erc20-performance-comparison.js",
+    "comparison-clean": "node scripts/run-without-warnings.js run scripts/performance-comparison.js",
+    "hybrid-demo": "hardhat run scripts/hybrid-disclosure-demo.js",
+    "hybrid-demo-clean": "node scripts/run-without-warnings.js run scripts/hybrid-disclosure-demo.js",
+    "crosschain-timing": "hardhat run scripts/crosschain-timing-analysis.js",
+    "crosschain-timing-clean": "node scripts/run-without-warnings.js run scripts/crosschain-timing-analysis.js",
+    "simplified-demo": "hardhat run scripts/simplified-crosschain-demo.js",
+    "simplified-demo-clean": "node scripts/run-without-warnings.js run scripts/simplified-crosschain-demo.js",
+    "simplified-fpp": "node scripts/simplified-fpphtlc-demo.js",
+    "streamlined-fpp": "hardhat run scripts/streamlined-fpphtlc-demo.js",
+    "streamlined-fpp-clean": "node scripts/run-without-warnings.js run scripts/streamlined-fpphtlc-demo.js",
+    "node": "hardhat node"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-verify": "^2.1.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.6.1",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.17.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.1.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "chai": "^4.3.8",
+    "ethereum-waffle": "^4.0.10"
+  }
+}
