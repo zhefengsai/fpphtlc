@@ -1,0 +1,407 @@
+{
+  "timestamp": "2025-07-26T17:27:36.646Z",
+  "config": {
+    "TEST_ITERATIONS": 10,
+    "TIMELOCK_DURATION": 3600,
+    "AMOUNT_TOKEN": {
+      "type": "BigNumber",
+      "hex": "0x0de0b6b3a7640000"
+    },
+    "INITIAL_SUPPLY": {
+      "type": "BigNumber",
+      "hex": "0x021e19e0c9bab2400000"
+    },
+    "DISTRIBUTION_AMOUNT": {
+      "type": "BigNumber",
+      "hex": "0x3635c9adc5dea00000"
+    }
+  },
+  "htlc": {
+    "iterations": [
+      {
+        "index": 0,
+        "performance": {
+          "lockTime": 33.05225000000007,
+          "claimTime": 15.228999999999928,
+          "cycleTime": 48.632833000000005
+        },
+        "gas": {
+          "lock": 700064,
+          "claim": 219962,
+          "total": 920026
+        },
+        "success": true
+      },
+      {
+        "index": 1,
+        "performance": {
+          "lockTime": 10.978124999999977,
+          "claimTime": 12.536583000000064,
+          "cycleTime": 23.685500000000047
+        },
+        "gas": {
+          "lock": 631652,
+          "claim": 168662,
+          "total": 800314
+        },
+        "success": true
+      },
+      {
+        "index": 2,
+        "performance": {
+          "lockTime": 12.874791999999957,
+          "claimTime": 17.081332999999972,
+          "cycleTime": 30.092457999999965
+        },
+        "gas": {
+          "lock": 631664,
+          "claim": 168662,
+          "total": 800326
+        },
+        "success": true
+      },
+      {
+        "index": 3,
+        "performance": {
+          "lockTime": 13.741709000000014,
+          "claimTime": 24.773209000000065,
+          "cycleTime": 38.64850000000001
+        },
+        "gas": {
+          "lock": 631652,
+          "claim": 168662,
+          "total": 800314
+        },
+        "success": true
+      },
+      {
+        "index": 4,
+        "performance": {
+          "lockTime": 69.97745900000007,
+          "claimTime": 31.796542000000045,
+          "cycleTime": 107.26358300000004
+        },
+        "gas": {
+          "lock": 631664,
+          "claim": 168650,
+          "total": 800314
+        },
+        "success": true
+      },
+      {
+        "index": 5,
+        "performance": {
+          "lockTime": 11.506457999999952,
+          "claimTime": 10.491792000000032,
+          "cycleTime": 22.132375000000025
+        },
+        "gas": {
+          "lock": 631664,
+          "claim": 168662,
+          "total": 800326
+        },
+        "success": true
+      },
+      {
+        "index": 6,
+        "performance": {
+          "lockTime": 9.543667000000028,
+          "claimTime": 9.958958999999936,
+          "cycleTime": 19.733708999999976
+        },
+        "gas": {
+          "lock": 631664,
+          "claim": 168662,
+          "total": 800326
+        },
+        "success": true
+      },
+      {
+        "index": 7,
+        "performance": {
+          "lockTime": 10.67041699999993,
+          "claimTime": 10.100000000000023,
+          "cycleTime": 20.928874999999948
+        },
+        "gas": {
+          "lock": 631664,
+          "claim": 168662,
+          "total": 800326
+        },
+        "success": true
+      },
+      {
+        "index": 8,
+        "performance": {
+          "lockTime": 10.805250000000001,
+          "claimTime": 9.349958000000015,
+          "cycleTime": 20.417625000000044
+        },
+        "gas": {
+          "lock": 631664,
+          "claim": 168662,
+          "total": 800326
+        },
+        "success": true
+      },
+      {
+        "index": 9,
+        "performance": {
+          "lockTime": 10.387333000000012,
+          "claimTime": 13.431416000000013,
+          "cycleTime": 23.955625000000055
+        },
+        "gas": {
+          "lock": 631652,
+          "claim": 168662,
+          "total": 800314
+        },
+        "success": true
+      }
+    ],
+    "summary": {
+      "performance": {
+        "lockPhase": {
+          "min": 9.543667000000028,
+          "max": 69.97745900000007,
+          "avg": 19.353746,
+          "total": 193.53746
+        },
+        "claimPhase": {
+          "min": 9.349958000000015,
+          "max": 31.796542000000045,
+          "avg": 15.474879200000009,
+          "total": 154.7487920000001
+        },
+        "fullCycle": {
+          "min": 19.733708999999976,
+          "max": 107.26358300000004,
+          "avg": 35.549108300000015,
+          "total": 355.4910830000001
+        }
+      },
+      "gas": {
+        "lock": {
+          "min": 631652,
+          "max": 700064,
+          "avg": 638500.4,
+          "total": 6385004
+        },
+        "claim": {
+          "min": 168650,
+          "max": 219962,
+          "avg": 173790.8,
+          "total": 1737908
+        },
+        "total": {
+          "min": 800314,
+          "max": 920026,
+          "avg": 812291.2,
+          "total": 8122912
+        }
+      },
+      "successRate": 100,
+      "errors": []
+    }
+  },
+  "fpphtlc": {
+    "iterations": [
+      {
+        "index": 0,
+        "performance": {
+          "lockTime": 6.724917000000005,
+          "claimTime": 9.84316600000011,
+          "cycleTime": 22.124291000000085
+        },
+        "gas": {
+          "lock": 724138,
+          "claim": 240432,
+          "total": 964570
+        },
+        "success": true
+      },
+      {
+        "index": 1,
+        "performance": {
+          "lockTime": 4.933541000000105,
+          "claimTime": 10.20270800000003,
+          "cycleTime": 19.111417000000074
+        },
+        "gas": {
+          "lock": 672850,
+          "claim": 223344,
+          "total": 896194
+        },
+        "success": true
+      },
+      {
+        "index": 2,
+        "performance": {
+          "lockTime": 5.971374999999853,
+          "claimTime": 11.959457999999813,
+          "cycleTime": 21.71958299999983
+        },
+        "gas": {
+          "lock": 672826,
+          "claim": 223332,
+          "total": 896158
+        },
+        "success": true
+      },
+      {
+        "index": 3,
+        "performance": {
+          "lockTime": 7.45108399999981,
+          "claimTime": 11.428750000000036,
+          "cycleTime": 24.746958000000177
+        },
+        "gas": {
+          "lock": 672838,
+          "claim": 223332,
+          "total": 896170
+        },
+        "success": true
+      },
+      {
+        "index": 4,
+        "performance": {
+          "lockTime": 7.205874999999878,
+          "claimTime": 11.485083999999915,
+          "cycleTime": 22.60199999999986
+        },
+        "gas": {
+          "lock": 672838,
+          "claim": 223332,
+          "total": 896170
+        },
+        "success": true
+      },
+      {
+        "index": 5,
+        "performance": {
+          "lockTime": 6.154084000000012,
+          "claimTime": 8.767958000000135,
+          "cycleTime": 18.777958000000126
+        },
+        "gas": {
+          "lock": 672814,
+          "claim": 223332,
+          "total": 896146
+        },
+        "success": true
+      },
+      {
+        "index": 6,
+        "performance": {
+          "lockTime": 7.076125000000047,
+          "claimTime": 16.591042000000016,
+          "cycleTime": 29.701999999999998
+        },
+        "gas": {
+          "lock": 672850,
+          "claim": 223344,
+          "total": 896194
+        },
+        "success": true
+      },
+      {
+        "index": 7,
+        "performance": {
+          "lockTime": 8.522750000000087,
+          "claimTime": 10.959333000000015,
+          "cycleTime": 25.60270800000012
+        },
+        "gas": {
+          "lock": 672850,
+          "claim": 223344,
+          "total": 896194
+        },
+        "success": true
+      },
+      {
+        "index": 8,
+        "performance": {
+          "lockTime": 6.355166999999938,
+          "claimTime": 9.410250000000133,
+          "cycleTime": 20.512292000000116
+        },
+        "gas": {
+          "lock": 672850,
+          "claim": 223344,
+          "total": 896194
+        },
+        "success": true
+      },
+      {
+        "index": 9,
+        "performance": {
+          "lockTime": 5.840124999999944,
+          "claimTime": 9.544833000000153,
+          "cycleTime": 18.578083000000106
+        },
+        "gas": {
+          "lock": 672850,
+          "claim": 223344,
+          "total": 896194
+        },
+        "success": true
+      }
+    ],
+    "summary": {
+      "performance": {
+        "lockPhase": {
+          "min": 4.933541000000105,
+          "max": 8.522750000000087,
+          "avg": 6.623504299999968,
+          "total": 66.23504299999968
+        },
+        "claimPhase": {
+          "min": 8.767958000000135,
+          "max": 16.591042000000016,
+          "avg": 11.019258200000035,
+          "total": 110.19258200000036
+        },
+        "fullCycle": {
+          "min": 18.578083000000106,
+          "max": 29.701999999999998,
+          "avg": 22.34772900000005,
+          "total": 223.4772900000005
+        }
+      },
+      "gas": {
+        "lock": {
+          "min": 672814,
+          "max": 724138,
+          "avg": 677970.4,
+          "total": 6779704
+        },
+        "claim": {
+          "min": 223332,
+          "max": 240432,
+          "avg": 225048,
+          "total": 2250480
+        },
+        "total": {
+          "min": 896146,
+          "max": 964570,
+          "avg": 903018.4,
+          "total": 9030184
+        }
+      },
+      "successRate": 100,
+      "errors": []
+    }
+  },
+  "comparison": {
+    "performance": {
+      "lockPhase": 65.7766289792169,
+      "claimPhase": 28.792606019179594,
+      "fullCycle": 37.135613047149086
+    },
+    "gas": {
+      "lock": 6.181671930041077,
+      "claim": 29.49362106624747,
+      "total": 11.169294952352073
+    }
+  }
+}
